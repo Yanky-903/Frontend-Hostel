@@ -1,0 +1,99 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+    background: linear-gradient(135deg, #4a90e2, #9013fe);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-wrap {
+    width: 400px;
+    padding: 40px 30px;
+    background: url("https://tinyurl.com/4bp4bt6d") no-repeat center center;
+    background-size: cover;
+    border-radius: 15px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.logintitle {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.tab {
+    display: inline-block;
+    margin: 0 10px;
+    padding-bottom: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    color: #fff;
+    border-bottom: 2px solid transparent;
+    transition: 0.3s ease;
+}
+
+.tab:hover,
+.sign-in:checked + .tab,
+.sign-up:checked + .tab {
+    color: #ffcc00;
+    border-bottom: 2px solid #ffcc00;
+}
+
+.login-form {
+    margin-top: 20px;
+}
+
+.group {
+    margin-bottom: 20px;
+}
+
+.label {
+    font-size: 14px;
+    color: #fff;
+    text-align: left;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.input {
+    width: 100%;
+    padding: 12px 15px;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    background: rgba(255, 255, 255, 0.2);
+    color: #fff;
+}
+
+.input:focus {
+    outline: none;
+    background: rgba(255, 255, 255, 0.4);
+}
+
+.button {
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(135deg, #ffcc00, #ff6600);
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.button:hover {
+    background: linear-gradient(135deg, #ff6600, #ffcc00);
+}
+
+.loading {
+    font-size: 16px;
+    color: #fff;
+}
